@@ -1,0 +1,23 @@
+How does your list work?
+
+My list works by using nodes to connect each person entered to the waitlist. Each node used contained the person's name and 
+then a pointer that would reference the next node in the sequence. The first customer needs their pointer to be set to none 
+until the next person is connected. The list starts at the head and moves through by following each pointer. Add_front method 
+allowed me to create a new node and make it the new head, while the add_end method starts at the head and moves through each 
+node until it finds the end and then adds the new name. Remove also searched the list until it found the matching name to remove 
+the node. 
+
+What role does the head play?
+
+Head is used to point out the first customer on the list. This is important because it allows the system to have a starting 
+point before it moves through the rest of the list with the pointers. It helps keep the program organized and tells it to start
+ in a specific spot before searching, adding or removing. 
+
+When might a real engineer need a custom list like this?
+
+A custom list could be useful for an engineer when they need more control in a program. A list like this keeps everything 
+organized with the head and pointers because these items are easily able to be tracked down and modified. When it comes to real 
+life, life becomes a little less structured so being able to have a system that can stay organized and can be updated to 
+accommodate real life situations is very important. For example, with this list customers come and go all day long. A real 
+engineer wouldn't know who might show up and need to go to the front but knowing that the system will handle it can take off 
+stress during the work day. 
